@@ -5,6 +5,8 @@ The firmware prints `Hello from Pico 2 W #n` over USB serial once a second. No w
 
 Built on [Embassy](https://embassy.dev/) (`embassy-rp` with the `rp235xa` feature). The Pico C SDK is not used.
 
+![Raspberry Pi Pico 2 W used for this demo](docs/pico2w_board.jpg)
+
 ## Setup (macOS)
 
 ```bash
