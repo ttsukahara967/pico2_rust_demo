@@ -33,6 +33,10 @@ Hello from Pico 2 W #1
 ...
 ```
 
+Real output from the board, read in macOS Terminal:
+
+![USB serial output from the Pico 2 W](docs/serial_output.png)
+
 ## Notes
 
 - After flashing, the `RP2350` drive disappears and the board shows up as a USB serial device. Re-enter BOOTSEL to flash again.
