@@ -1,0 +1,6 @@
+[build]
+target = "thumbv8m.main-none-eabihf" # RP2350 Cortex-M33 with FPU
+
+[target.thumbv8m.main-none-eabihf]
+# Flash over USB while the board is in BOOTSEL mode, then reboot into the app
+runner = "picotool load -u -v -x -t elf"

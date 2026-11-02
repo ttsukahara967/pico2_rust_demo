@@ -1,0 +1,17 @@
+[package]
+name = "pico2_rust_demo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m-rt = "0.7.7"
+embassy-executor = "0.10.0"
+embassy-futures = "0.1.2"
+embassy-rp = { version = "0.10.0", features = ["rp235xa", "time-driver", "critical-section-impl", "executor-thread", "binary-info"] }
+embassy-time = "0.5.1"
+embassy-usb = "0.6.0"
+panic-halt = "1.0.0"
+static_cell = "2.1.1"
+
+[profile.release]
+debug = true
